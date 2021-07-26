@@ -13,3 +13,6 @@
 `docker kill $(docker ps -q)`
 
 - delete all stoped containers
+
+`docker container kill $(docker ps -q)
+`
